@@ -1,0 +1,2 @@
+jaise i bdhega aur j bhi jab tak bdhega jab tak wo i se chota hai
+example i = 3 hoga to j = 0 phr 1 ,2 hoga phr jaise j =3 loop exit hojaega aur i++ hojaega..
