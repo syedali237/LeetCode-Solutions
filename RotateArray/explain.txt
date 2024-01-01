@@ -1,0 +1,7 @@
+// Initial array: [1, 2, 3, 4, 5, 6, 7]
+// k = 3
+
+// Step 1: nums.splice(-k) extracts the last 3 elements: [5, 6, 7]
+// Step 2: Spread operator (...) spreads the elements: 5, 6, 7
+// Step 3: nums.unshift(5, 6, 7) adds these elements to the beginning
+// Resulting array: [5, 6, 7, 1, 2, 3, 4]
