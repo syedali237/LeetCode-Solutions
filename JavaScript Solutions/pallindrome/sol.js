@@ -14,4 +14,16 @@ function pallindromeNumber(x){
     return true;
 }
 
-console.log(pallindromeNumber(1000021));
+function pallindrome(x){
+    let temp = x;
+    let rev = 0;
+
+    while(temp>0){
+        var rem = temp%10;
+        rev = rev*10 + rem;
+        temp = Math.floor(temp/10);
+    }
+    return rev == x;
+}
+
+console.log(pallindrome(121));
