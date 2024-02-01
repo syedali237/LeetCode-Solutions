@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+public class Solution {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
 int n = nums.length;
