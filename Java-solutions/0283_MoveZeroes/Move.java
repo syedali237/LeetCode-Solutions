@@ -30,6 +30,7 @@ public class Move {
 }
     }
 
+    // giving runtime error
     static int[] move(int[] nums){
         // finding first zero
         int j = -1;
