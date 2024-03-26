@@ -1,0 +1,7 @@
+/**
+ * SpiralThree
+ */
+public class SpiralThree {
+
+    
+}
