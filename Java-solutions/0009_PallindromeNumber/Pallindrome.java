@@ -1,5 +1,5 @@
-class Solution {
-    public boolean isPalindrome(int x) {
+class Pallindrome {
+    static boolean isPalindrome(int x) {
         long rev = 0;
         long temp = x;
 
@@ -13,9 +13,8 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
         int number = 121;
-        boolean result = solution.isPalindrome(number);
+        boolean result = isPalindrome(number);
         System.out.println(result); // Output: true
     }
 }

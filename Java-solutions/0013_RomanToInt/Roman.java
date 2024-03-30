@@ -1,8 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
-    public int romanToInt(String s) {
+public class Roman {
+    static int romanToInt(String s) {
         Map<Character, Integer> value = new HashMap<>();
         value.put('I', 1);
         value.put('V', 5);
@@ -25,8 +25,7 @@ public class Main {
         return result;
     }
     public static void main(String[] args) {
-        Main solution = new Main();
         String s = "III";
-        System.out.println(solution.romanToInt(s));
+        System.out.println(romanToInt(s));
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
-public class Solution {
-    public int majorityElement(int[] nums) {
+public class Major {
+    static int majorityElement(int[] nums) {
         Arrays.sort(nums);
 int n = nums.length;
 return nums[n/2];
@@ -9,9 +9,8 @@ return nums[n/2];
     
 
 public static void main(String[] args) {
-        Solution solution = new Solution();
         int number[] = {3,2,3};
-        int result = solution.majorityElement(number);
+        int result = majorityElement(number);
         System.out.println(result);
     }
 }

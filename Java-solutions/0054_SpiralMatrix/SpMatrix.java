@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
-    public List<Integer> spiralOrder(int[][] matrix) {
+class SpMatrix {
+    static List<Integer> spiralOrder(int[][] matrix) {
         int m = matrix.length; // rows
         int n = matrix[0].length; // columns
         int left = 0;
@@ -42,9 +42,7 @@ class Solution {
             {4, 5, 6},
             {7, 8, 9}
         };
-
-        Solution solution = new Solution();
-        List<Integer> result = solution.spiralOrder(matrix);
+        List<Integer> result = spiralOrder(matrix);
 
         // Print the result
         System.out.println("Spiral Order: " + result);
