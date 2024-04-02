@@ -7,7 +7,10 @@ public class MajorityEl {
         return nums[n/2];
     }
 
-    public int majorityEl(int[] nums) {
+    // MOORES VOTING ALGORITHM
+    // majority = minority in the before prefix until last count = 0;
+    // last section will have majorit then
+    static int majorityEl(int[] nums) {
         int count = 0;
         int element = 0;
 
