@@ -6,8 +6,8 @@ import java.util.Arrays;
 public class ReverseWord {
     public static void main(String[] args) {
         // String s = "the sky is blue";
-        // String s = "a good   example";
-        String s = "  hello world  ";
+        String s = "a good   example";
+        // String s = "  hello world  ";
         System.out.println(reverseWord(s));
     }
 
